@@ -1,0 +1,23 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+<!--    &lt;!&ndash;mybatis配置&ndash;&gt;-->
+<!--    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
+<!--        <property name="dataSource" ref="dataSource" />-->
+<!--        &lt;!&ndash;  映射所有的sql对应的模块的xml文件 &ndash;&gt;-->
+<!--        <property name="mapperLocations" value="classpath:com/itsm/mapper/*.xml"/>-->
+<!--        &lt;!&ndash; 注册mybatisbean别名 &ndash;&gt;-->
+<!--        <property name="typeAliasesPackage" value="com.car.entity"/>-->
+<!--        &lt;!&ndash; 加载mybatis置文件 &ndash;&gt;-->
+<!--        <property name="configLocation" value="classpath:mybatis-config.xml"/>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash;检查下你的是否存在&ndash;&gt;-->
+<!--    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">-->
+<!--        <property name="basePackage" value="com.car.dao"></property>-->
+<!--        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>-->
+<!--    </bean>-->
+<!--    <bean id="dataSource" class=""/>-->
+
+<!--</beans>-->
